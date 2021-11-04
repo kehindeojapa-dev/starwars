@@ -17,6 +17,8 @@ function App() {
 
   return (
     <div className="app">
+      <p style={{ color: "#fff" }}>Click logo</p>
+
       <section className="app__logo" onClick={showDropDown}>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg"
